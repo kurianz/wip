@@ -1,0 +1,218 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+% (c) 2011 Scott Clark <sc932@cornell.edu> http://cam.cornell.edu/~sc932
+%
+
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\input{preamble}
+\input{format}
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+
+\textbf{{\Large Kurian C Kurian}} & \textbf{\today} \\
+%\texttt{kurian@trika.org.in}\\
+\texttt{kurianck.mail@gmail.com} \\
+\href{https://dsmchn.bitbucket.io}{Machine Learning Blog}\\
+\texttt{Mobile:+919188600590}\\ 
+\end{tabular*}
+
+\resheading{About me}
+ I worked (2 yrs 4 months exp.) as devops with practice in Go and PHP, I author a machine learning blog(above left) and built a website for my college fest \href{https://trika.org.in}{here}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{Skill Matrix}{}{}{}
+\input{skillmatrix}
+
+
+\resheading{Highlight Projects }
+\begin{itemize}
+\item 
+
+\ressubheading{Project Work on Github}{}{}{2018-Present}
+\begin{itemize}
+	\resitem{\textbf{\href{https://github.com/kurianCoding/comma}{Comma}}
+	\input{coma}}
+	\resitem{\textbf{\href{https://github.com/kurianCoding/demoback}{Eyeball Meter}} 
+	\input{eyeball}}
+	\resitem{\textbf{Testignore functionality:} 
+	\input{testig}}
+	\resitem{\textbf{Curl Based browser}
+
+	Golang application which, uses curl to fetch web pages. Allowing use of kai os data without turning on tethering.}
+%\resitem{\textbf\href{https://elasticbeanstalk-us-east-2-915863792253.s3.us-east-2.amazonaws.com/index.html}{Chat application}
+%application works on the websocket object provided by html5. It extends the https connection to provide a duplex channel for communication.
+%}
+
+\resitem{\textbf{\href{http://trika.org.in}{Trika}:} Single person development of event website front end, for \href{http://trika.org.in}{trika} an ER \& DCI-IT institute tech festival. Used vue-js, bootstrap, slack, chatlio. Website \href{https://trika.org.in}{trika.org.in}}
+
+
+
+	\resitem{\textbf{\href{https://bitbucket.org/dsmchn/tcpc}{TCP
+	command line  Chat application in  Go}}: This enables a user to chat with another user over a fixed ip address. App involves running a chat server at an ip address and directing  both users to that same ip address via a client. The server uses a persistent tcp connection to accept strings(as binary encoded data stream) from client and broadcasts that string to all clients}
+
+%\resitem{\textbf{MNIST Image identification:} Competed in a kaggle entry, for identifying numbers from their image, using neural networks. Made a neural net, achieving an accuracy of 99.142\%. Used visual aids to track accuracy of neural net through each iteration, experimented with several optimization and data-modification techniques.}
+
+
+%\resitem{\textbf{StackOverflow stats:} A small front end web app(in Angular6) which shows a cool representation of tags used in stack overflow, to see which programming languages are more asked about.}
+
+
+
+\resitem{ Apart from complete projects , I have done work in the following area.
+\begin{itemize}
+    \resitem{\textbf{stackoverflow}Built a profile on stackoverflow,
+	which currently has 415 points.}
+    \resitem{\textbf{powerline-go[fork]}Introduced concurrency in a popular go application called powerline-go, in a forked version.}
+    \resitem{\textbf{humanitarian coding[Issue Fixes]} Contributed, code and fixed issues in humanitarian effort of coders in Kerala working independently for flood-tracking.}
+\end{itemize}
+}
+\end{itemize}
+\end{itemize}
+
+\resheading{Reverse Chronological Career Track }
+
+\begin{itemize}
+
+\item
+    \ressubheading{HiFx IT private limited}{Kerala,Kochi,India}{2 Years, 4 months}{2015-2018}
+    \begin{itemize}
+    \resitem{\textbf{Leave availing system(Go/PHP):9 months} \justify 
+    
+    I worked as part of a team(of 4 people) who built a leave availing app for in house use. We used an in house framework that was designed as a functional hierarchy. The following, paragraphs describes the extent of my contribution to the project
+    
+	\begin{itemize}
+	\item {\bf Login(middleware):} oauth1 flow, with mysql backend and go api, with php frontend.        
+	\item {\bf Registration and Leave Availing:}Validations based on business logic, based on access privilege and based on time duration(eg: joining data vs current leave availing date)                   
+	\item {\bf Corner case} At least one user needs to be registered for the system to be useful. So the first user needs to be a super user and also not allowed to delete himself.
+	\item {\bf Prevent Misuse} Check if duplicateentries are being made,  and if gender specific OFF is not abused by randomly changing gender.
+        \item {\bf List View(pagination/sorting):} Admin Panel involved views that would help a manager decide how many employees under him/her are eligible to apply for leave and to filter this view using name, date of joining, gender. From this view it is possible to view the details of each employee by viewing their details. 
+	\end{itemize}
+    
+    The work involved making api that would access a MySQL database, provide jsonified response and use amazon ses api  to send emails. It was a project with an accelerated learning curve.
+    }
+   
+    
+    \resitem{\textbf{Web-page designing interface(PHP,AngularJS,Go):5 months} \justify \emph{Wix}(web designing interface) like app which could be used to build a website by adding and removing components.
+    
+    \begin{itemize}
+    \item user enters text and uploads picture and video directly to a web interface that is a preview of the template.
+    \item the final preview of the website, along with remarks from admin are view able by user.
+    \item user can publish his/her work on which he/she will receive 
+    \begin{itemize}
+        \item a url to the webpage
+        \item a short url to webpage
+        \item image of the webpage to share on social media like whatsapp.
+    \end{itemize} 
+    \item Admin, has the final say in what gets published. It is only after approval of admin that content gets published by user.
+    \end{itemize}}
+    
+    
+    \resitem{\textbf{Event hosting website: two weeks} \justify Fast paced development of building a web page including, event listing, location, payment process. Done and completed in one week with work done by myself and
+    one senior engineer. It was used to handle Hosting of a world class event held in Kochi, with the used for hotel booking, FAQ, participant registration. }
+  	
+    \end{itemize}
+
+\ressubheading{Bharat Petroleum Corporation Limited}{Mumbai,India}{2 Years, 5 Months}{2009 - 2011}
+	\begin{itemize}
+	\resitem{\textbf{Study of Power Consumption in Chain Conveyors:} In a \emph{never stopping} production line chain conveyors play a significant role. They take the product through various
+	stages of processing. However due the very nature of being constantly on, they also represent
+	one of the constant demands of power. This can be draining if the chain conveyors are not optimally
+	designed. At Bhitoni LPG bottling plant I carried out a study, to find if any of the motors were
+	undergoing any major stress. We used the measurement of current drawn and the recommended value for
+	each motor to ascertain whether there was an excess stress. This was preceded by minor adjustments in conveyor layout and subsequently better performance from the conveyor system.}
+	\resitem{\textbf{Installation of Remote Operating Valves(R.O.V):} R.O.V's are pneumatic valves that
+	run on air pressure of 8 kg/cm. They are used to remotely open or close a valve which its 
+	advisable to do so from a distance. In Bhitoni LPG bottling plant, I was member of a team of officers
+	and workers who installed ROV's on tanker unloading bay's. Thus ensuring that they can be operated 
+	from a safe distance if need be. Since the operation would cost essential working hours of plant, it 
+	needed meticulous planning and had to be conducted without interludes spanning three days and 2 
+	nights.}
+	\end{itemize}
+\end{itemize}
+
+
+\resheading{Achievement}
+\begin{itemize}
+    \item 
+        \begin{itemize}
+        \resitem{\textbf{Stackoverflow(current score:415):} Actively engaged in stack overflow, answered 26 questions and earned (reputation)152 points in a period of 35 days. }
+        \resitem{\textbf{Hacker Earth Predict The Criminal Challenge 2018:} Used pandas perceptron to make prediction. Submission accepted.}
+        \resitem{\textbf{Royal bank of Scotland Hiring Challenge:}
+        Was selected as one of the 250 coders who cleared the R.B.S hiring challenge conducted all over India on Hacker Earth, held on 15\textsuperscript{th} july 2017.}
+        
+        \resitem{\textbf{Graduate Aptitude Test for Engineers in Electrical Engineering} Ranked 377(725/1000) A.I.R in 2012.}
+       
+        \resitem{\textbf{Graduate Record Exam} Scored 309 in 2014.}
+       
+       \end{itemize}
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\resheading{Research Interest}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Academics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \ressubheading{I.I.T Guwahati}{Guwahati, India}{M.Tech in Applied Control with C.P.I of 7.05}{2012 - 2014}
+
+\begin{itemize}
+    \resitem{\textbf{Specialization:} \emph{2D Characteristic sets and their role in determining stability for 2D Discrete systems.}}
+	\resitem{\textbf{Course topics:}
+	\begin{itemize} \item \emph{Power Systems}: Optimal power generation, Power flow simulation in code. \item \emph{Linear Systems}: Modelling electrical systems to simulate their stability. \item \emph{Signal Processing}: Using sci lab to model human sound.
+	\end{itemize}}
+	\resitem{\textbf{Thesis:} \emph{Thin Characteristic Sets For 2D Discrete Systems}: Thin Characteristic sets are used to uniquely define
+	trajectories. In order to predict if a system is stable it is enough to know if it is stable in the characteristic set. }
+\end{itemize}
+
+\item \ressubheading{Government Engineering College Thrissur}{Thissur, Kerala, India}{B.Tech in Electrical and Electronics with cumulative percentage of 65\%}{2004-2008}
+\begin{itemize}
+     \resitem {\textbf{B.Tech projects:}
+    \begin{itemize}
+    \item{\emph{Rotating signboard:} A single strip of 10 LEDs which when rotated along one of the
+ends as axis displays a sign, message etc. It is a cost efficient, space efficient
+alternative to large billboards.}
+    \item{\emph{Line-Following robot:} A self tracking board that follows a black line drawn on the
+ground.}
+    \end{itemize}}
+
+    \resitem{\textbf{Course Topics Include:} Electrical Networks, Power Systems, Power Electronics, Analog and Digital Electronics.}
+   
+\end{itemize}
+
+
+
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\resheading{Referral}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{itemize}
+%\begin{itemize}
+%    \resitem{\textbf{Shiju T.V.} Team Lead at Hifx. email: shiju@hfix.co.in}
+%\end{itemize}
+%\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\bibliography{cv}
+%\bibliographystyle{alpha}
+\end{document}

@@ -1,0 +1,28 @@
+\begin{thebibliography}{FRZ93}
+
+\bibitem[FRZ93]{zampieri}
+E.~Fornasini, P.~Rocha, and S.~Zampieri.
+\newblock State space realization of 2-d finite-dimensional behaviours.
+\newblock {\em SIAM Journal on Control and Optimization}, 31(6):1502--1517,
+  1993.
+
+\bibitem[PP14]{PP}
+D.~Pal and H.~K. Pillai.
+\newblock Novel representation formulae for discrete 2d autonomous systems.
+\newblock In {\em 53rd IEEE Conference on Decision and Control}, pages
+  1307--1312, Dec 2014.
+
+\bibitem[Val00]{valcher}
+M.~E. Valcher.
+\newblock Characteristic cones and stability properties of two-dimensional
+  autonomous behaviors.
+\newblock {\em IEEE Transactions on Circuits and Systems I: Fundamental Theory
+  and Applications}, 47(3):290--302, Mar 2000.
+
+\bibitem[Wil91]{73561}
+J.~C. Willems.
+\newblock Paradigms and puzzles in the theory of dynamical systems.
+\newblock {\em IEEE Transactions on Automatic Control}, 36(3):259--294, Mar
+  1991.
+
+\end{thebibliography}
