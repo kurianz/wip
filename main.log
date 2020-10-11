@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 AUG 2020 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 OCT 2020 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,68 +321,69 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
 
 (./skillmatrix.tex
-Overfull \hbox (14.65636pt too wide) in paragraph at lines 8--9
-[]\OT1/cmr/m/n/10.95 Deployment|  
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 
-Overfull \hbox (40.42798pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/10.95 aws(EC2+rds)  
+Overfull \hbox (5.6226pt too wide) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/10.95 Javascript 
  []
 
 
-Overfull \hbox (39.88052pt too wide) in paragraph at lines 11--13
-\OT1/cmr/m/n/10.95 heroku(heroku 
+Overfull \hbox (37.9642pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 version),AngularJS- 
  []
 
 
-Overfull \hbox (0.88628pt too wide) in paragraph at lines 11--13
-\OT1/cmr/m/n/10.95 cli+go 
+Overfull \hbox (4.90128pt too wide) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10.95 scikit,opencv|  
  []
 
 
-Overfull \hbox (84.45613pt too wide) in paragraph at lines 24--25
-[]\OT1/cmr/m/n/10.95 Goji,Echo,net/http,exec.Cmd|  
+Underfull \hbox (badness 1270) in paragraph at lines 39--41
+[]\OT1/cmr/m/n/10.95 Prediciting digit from im-age of 
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/10.95 Middleware/API In-te-gra- 
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 34--35
-[]\OT1/cmr/m/n/10.95 6 
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 39--41
-[]\OT1/cmr/m/n/10.95 Front End List-ing /De-tail Drill 
- []
-
-
-Overfull \hbox (48.93869pt too wide) in paragraph at lines 2--49
+Overfull \hbox (48.93869pt too wide) in paragraph at lines 2--44
  [] 
  []
 
 
-Overfull \hbox (0.54303pt too wide) in paragraph at lines 66--67
-[]\OT1/cmr/m/n/10.95 Scripting|  
+Overfull \hbox (84.45613pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/10.95 Goji,Echo,net/http,exec.Cmd|  
  []
 
 
-Overfull \hbox (8.79457pt too wide) in paragraph at lines 72--73
-\OT1/cmr/m/n/10.95 Implementing 
+Underfull \hbox (badness 1292) in paragraph at lines 61--62
+[]\OT1/cmr/m/n/10.95 6 
  []
 
 
-Overfull \hbox (48.93869pt too wide) in paragraph at lines 52--78
+Overfull \hbox (14.65636pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/10.95 Deployment|  
+ []
+
+
+Overfull \hbox (40.42798pt too wide) in paragraph at lines 66--67
+\OT1/cmr/m/n/10.95 aws(EC2+rds)  
+ []
+
+
+Overfull \hbox (39.88052pt too wide) in paragraph at lines 67--69
+\OT1/cmr/m/n/10.95 heroku(heroku 
+ []
+
+
+Overfull \hbox (0.88628pt too wide) in paragraph at lines 67--69
+\OT1/cmr/m/n/10.95 cli+go 
+ []
+
+
+Overfull \hbox (48.93869pt too wide) in paragraph at lines 47--99
  [] 
  []
 
@@ -433,11 +434,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  6200 strings out of 493089
  90552 string characters out of 6134842
- 196592 words of memory out of 5000000
+ 198592 words of memory out of 5000000
  9633 multiletter control sequences out of 15000+600000
  8096 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,10n,35p,803b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,10n,35p,803b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -446,10 +447,10 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 123035 bytes).
+Output written on main.pdf (5 pages, 124026 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
